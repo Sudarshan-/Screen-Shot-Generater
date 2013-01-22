@@ -1,0 +1,19 @@
+{
+    "name": "Screen Shot",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "This will generate Screen Shot of current Chrome Page",
+    "browser_action": {
+        "default_icon": "screen.png",
+        "default_popup": "script.html"
+    },
+    "permissions": [
+        "tabs",
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "screen.png",
+        "48": "screen.png",
+        "128": "screen.png"
+    }
+}
